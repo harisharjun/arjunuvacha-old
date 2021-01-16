@@ -16,10 +16,35 @@ Logo: #2C1616;
     src: url('./fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),        url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),       url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+/* h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+h5{
+    font-size: 24px;
+}
+
+h6{
+    font-size: 24px;
+} */
+
 body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
     color: #04212F;
+    /* font-size: 16px; */
 }
 
 .nav-bar-arjun{
@@ -79,7 +104,7 @@ body{
     background: url(./images/sky.jpg) no-repeat bottom;
     width: 100%;
     display: block;
-    min-height: 650px;
+    min-height: 550px;
     text-align: center;
     padding-top: 140px;
 }
@@ -93,7 +118,7 @@ body{
     color: #04212F;
     padding: 30px 20px 30px 20px !important;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -174,6 +199,7 @@ body{
     .about-intro-arjun{
         background-size: 100%;
         padding-top: 160px;
+        min-height: 700px;
     }
 
     .intro-box-arjun{
