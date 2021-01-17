@@ -106,7 +106,7 @@ body{
     background: url(./images/sky.jpg) no-repeat bottom;
     width: 100%;
     display: block;
-    min-height: 600px;
+    min-height: 700px;
     text-align: center;
     padding-top: 120px;
 }
@@ -260,7 +260,34 @@ body{
     color: #04212F;
 }
 
+.home-hero-banner{
+    background: url(./images/sky3.jpg) no-repeat center;
+    width: 100%;
+    display: block;
+    min-height: 600px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.arjun-uvacha-intro{
+    text-align: left;
+}
+
+.arjun-uvacha-intro a{
+    text-decoration: none;
+    color: #08415E;
+}
+
+.arjun-uvacha-intro a:hover{
+    text-decoration: none;
+    color: #04212F;
+}
+
 @media screen and (min-width: 1200px){
+    .nav-bar-arjun{
+        padding: 20px 10% 20px 8.3333%;
+    }
+
     .about-intro-arjun{
         background-size: 100%;
         padding-top: 160px;
@@ -304,6 +331,12 @@ body{
 
     .sssihl{
         margin-top: 0px;;
+    }
+
+    .home-hero-banner{
+        background-size: 100%;
+        padding-top: 160px;
+        min-height: 750px;
     }
 
 }
