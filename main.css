@@ -348,4 +348,10 @@ body{
         min-height: 750px;
     }
 
+    .home-hero-banner-about{
+        background-size: 100%;
+        padding-top: 160px;
+        min-height: 750px;
+    }
+
 }
