@@ -269,6 +269,15 @@ body{
     padding-top: 120px;
 }
 
+.home-hero-banner-about{
+    background: url(./images/sky3.jpg) no-repeat center;
+    width: 100%;
+    display: block;
+    min-height: 600px;
+    text-align: center;
+    padding-top: 120px;
+}
+
 .arjun-uvacha-intro{
     text-align: left;
 }
